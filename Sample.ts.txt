@@ -1,0 +1,12 @@
+// The below typescript program uses let, CONST & Arrow function
+
+let sum = (a: number, b: number): number => {  
+			const MY_CONSTANT = 40;
+
+            return a + b + MY_CONSTANT;  
+}  
+
+
+
+// On executing the below through cnsole, it returns 90
+console.log(sum(20, 30)); //returns 90
